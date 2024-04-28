@@ -1,0 +1,5 @@
+.vscode/
+
+server.crt
+server.key
+config.yaml

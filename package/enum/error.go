@@ -1,0 +1,12 @@
+package enum
+
+import "errors"
+
+var (
+	ERROR_DATA_NOT_FOUND             = errors.New("DATA NOT FOUND")
+	CRM_RESPONSE_ERROR               = errors.New("CRM_RESPONSE_ERROR")
+	USER_DO_NOT_HAVE_CHANNEL_ACCOUNT = errors.New("USER_DO_NOT_HAVE_CHANNEL_ACCOUNT")
+	PLATFORM_ID_NOT_SET              = errors.New("PLATFORM_ID_NOT_SET")
+	PLATFORM_ACCESS_TOKEN_NOT_SET    = errors.New("PLATFORM_ACCESS_TOKEN_NOT_SET")
+	CHANNEL_ACCOUNT_NOT_MATCH        = errors.New("CHANNEL_ACCOUNT_NOT_MATCH")
+)
